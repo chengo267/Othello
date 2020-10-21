@@ -103,7 +103,7 @@ namespace Ex05.WinUI
 
         private void OtheloSquerButton_Click(object sender, EventArgs e)
         {
-            OtheloSquerButton choosenButton = sender as OtheloSquerButton; // אולי צריך להוסיף בדיקה האם ההמרה בוצעה - יש בכלל אפשרות ללחוץ על משהו שאינו כפתור?? 
+            OtheloSquerButton choosenButton = sender as OtheloSquerButton; 
 
             if (choosenButton.BackColor == Color.LawnGreen)
             {
